@@ -4,7 +4,7 @@ LABEL maintainer="LiveXP <dev@livexp.fr>"
 ENV GRADLE_VERSION 4.2
 ENV ANDROID_SDK_VERSION 3859397
 ENV ANDROID_SDK_PATH /usr/local/bin/android-sdk
-ENV ANDROID_API_LEVELS "platforms;android-19" "platforms;android-20" "platforms;android-21" "platforms;android-22" "platforms;android-23" "platforms;android-24" "platforms;android-25" "platforms;android-26"
+ENV ANDROID_API_LEVELS "build-tools;26.0.2" "extras;android;m2repository" "platforms;android-19" "platforms;android-20" "platforms;android-21" "platforms;android-22" "platforms;android-23" "platforms;android-24" "platforms;android-25" "platforms;android-26"
 
 RUN update-ca-certificates -f
 
